@@ -1,0 +1,7 @@
+<htpl>
+  <import src="gadgets/greet/gadget.htpl" as="greet" />
+
+  <func name="say_hello" params="name: string" returns="string">
+    <return value="greet.hello(name)" />
+  </func>
+</htpl>

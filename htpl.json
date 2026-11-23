@@ -1,0 +1,9 @@
+{
+  "description": "Says hello using greet.",
+  "main": "gadget.htpl",
+  "name": "hello",
+  "version": "0.1.0",
+  "dependencies": {
+    "greet": "^0.1"
+  }
+}
